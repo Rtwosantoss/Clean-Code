@@ -52,9 +52,9 @@ podman run \
     --security-opt label=disable \
     --network=host \
     -e SONAR_HOST_URL="http://localhost:9000"  \
+    -e SONAR_TOKEN="squ_5799fbd4c14c948454639091b040c9189ffbaf8c" \
     -w "${PWD}" \
     -v "${PWD}:${PWD}" \
     docker.io/sonarsource/sonar-scanner-cli \
-    -Dsonar.login="admin" \
-    -Dsonar.password="admin"
+    
 ```
