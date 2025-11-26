@@ -56,5 +56,5 @@ podman run \
     -v "${PWD}:${PWD}" \
     docker.io/sonarsource/sonar-scanner-cli \
     -Dsonar.login="admin" \
-    -Dsonar.password="Lombada1234-"
+    -Dsonar.password="admin"
 ```
